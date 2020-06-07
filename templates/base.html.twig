@@ -7,7 +7,7 @@
     </head>
     <body>
         {% block body %}{% endblock %}
-        {% block javascripts %}{{ encore_entry_script_tags('app')}}{% endblock %}
+        {% block javascripts %}{{ encore_entry_script_tags('app')}} <script src="login.js"></script>{% endblock %}
         <form  method="post" action="" id="ajax_form">
             <p><strong>Логин:</strong>
                 <input maxlength="25" size="40" id="login" name = "login"></p>
