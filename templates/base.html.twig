@@ -7,7 +7,7 @@
     </head>
     <body>
         {% block body %}{% endblock %}
-        {% block javascripts %}{{ encore_entry_script_tags('app')}}{% endblock %}
+        {% block javascripts %}{{ encore_entry_script_tags('base')}} {% endblock %}
         <form  method="post" action="" id="ajax_form">
             <input type="button" id="btn" value="Вы успешно вошли! Скоро тут(может быть) появится рабочее приложение!" />
         </form>
