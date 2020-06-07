@@ -8,6 +8,6 @@ class Login extends AbstractController
 {
 function check()
 {
-    return $this->render('base.html.twig');
+    return $this->render('login.html.twig');
 }
 }

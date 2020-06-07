@@ -6,7 +6,7 @@ use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 
 class MainPage extends AbstractController
 {
-    function check()
+    function Base()
     {
         return $this->render('base.html.twig');
     }

@@ -2,6 +2,9 @@
 #    path: /
 #    controller: App\Controller\DefaultController::index
 login:
-  path: /
+  path: /login
   controller: App\Controller\Login::check
+mainpage:
+    path: /
+    controller: App\Controller\MainPage::base
 
