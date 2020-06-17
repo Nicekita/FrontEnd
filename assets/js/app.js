@@ -25,7 +25,7 @@ $(document).ready(function() {
             if (data.auth == '1'){console.log('Регистрация прошла успешно!'); document.location.href = "/";} else console.log('Регистрация не удалась.')
         });
 
-        return false; // или return false;
+        return false;
     });
 });
 
