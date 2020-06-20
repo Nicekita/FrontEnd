@@ -26,7 +26,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1d16b28b-9ab8-491a-ac0c-60ad374e0e4f" name="Default Changelist" comment="Changed structure">
       <change beforePath="$PROJECT_DIR$/../APIpractice/src/Controller/Sql.php" beforeDir="false" afterPath="$PROJECT_DIR$/../APIpractice/src/Controller/Sql.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -122,7 +121,8 @@
       <workItem from="1591528522087" duration="10626000" />
       <workItem from="1591624178394" duration="1309000" />
       <workItem from="1592137977241" duration="1358000" />
-      <workItem from="1592433001030" duration="2737000" />
+      <workItem from="1592433001030" duration="3108000" />
+      <workItem from="1592583387908" duration="815000" />
     </task>
     <task id="LOCAL-00001" summary="Made some changes">
       <created>1591529949411</created>
