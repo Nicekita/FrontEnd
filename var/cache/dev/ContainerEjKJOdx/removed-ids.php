@@ -1,11 +1,11 @@
 <?php
 
 return [
-    '.1_NativeFileSessionHandler~Xa2j2pG' => true,
-    '.1_ServiceLocator~92ve.h8' => true,
-    '.1_~kU4R6Hr' => true,
-    '.1_~t6ke0by' => true,
-    '.2_~t6ke0by' => true,
+    '.1_NativeFileSessionHandler~YKyRd9G' => true,
+    '.1_ServiceLocator~njsM9JU' => true,
+    '.1_~7fMT249' => true,
+    '.1_~wJggAvX' => true,
+    '.2_~wJggAvX' => true,
     '.abstract.instanceof.App\\Controller\\Login' => true,
     '.abstract.instanceof.App\\Controller\\MainPage' => true,
     '.cache_connection.GD_MSZC' => true,

@@ -1,6 +1,7 @@
 <?php
 
-namespace ContainerBIrSbF9;
+namespace ContainerEjKJOdx;
+
 
 use Symfony\Component\DependencyInjection\Argument\RewindableGenerator;
 use Symfony\Component\DependencyInjection\ContainerInterface;
@@ -39,6 +40,7 @@ class App_KernelDevDebugContainer extends Container
         ];
         $this->methodMap = [
             'App\\Controller\\Login' => 'getLoginService',
+            'App\\Controller\\MainPage' => 'getMainPageService',
             'Symfony\\Bundle\\FrameworkBundle\\Controller\\RedirectController' => 'getRedirectControllerService',
             'Symfony\\Bundle\\FrameworkBundle\\Controller\\TemplateController' => 'getTemplateControllerService',
             'cache.app' => 'getCache_AppService',
@@ -147,21 +149,24 @@ class App_KernelDevDebugContainer extends Container
 
         $this->services['App\\Controller\\Login'] = $instance = new \App\Controller\Login();
 
-        $instance->setContainer((new \Symfony\Component\DependencyInjection\Argument\ServiceLocator($this->getService, [
-            'http_kernel' => ['services', 'http_kernel', 'getHttpKernelService', false],
-            'parameter_bag' => ['privates', 'parameter_bag', 'getParameterBagService', false],
-            'request_stack' => ['services', 'request_stack', 'getRequestStackService', false],
-            'router' => ['services', 'router', 'getRouterService', false],
-            'session' => ['services', 'session', 'getSessionService', false],
-            'twig' => ['services', 'twig', 'getTwigService', false],
-        ], [
-            'http_kernel' => '?',
-            'parameter_bag' => '?',
-            'request_stack' => '?',
-            'router' => '?',
-            'session' => '?',
-            'twig' => '?',
-        ]))->withContext('App\\Controller\\Login', $this));
+        $instance->setContainer(($this->privates['.service_locator.pNNo5z3'] ?? $this->get_ServiceLocator_PNNo5z3Service())->withContext('App\\Controller\\Login', $this));
+
+        return $instance;
+    }
+
+    /**
+     * Gets the public 'App\Controller\MainPage' shared autowired service.
+     *
+     * @return \App\Controller\MainPage
+     */
+    protected function getMainPageService()
+    {
+        include_once \dirname(__DIR__, 4).'\\vendor\\symfony\\framework-bundle\\Controller\\AbstractController.php';
+        include_once \dirname(__DIR__, 4).'\\src\\Controller\\MainPage.php';
+
+        $this->services['App\\Controller\\MainPage'] = $instance = new \App\Controller\MainPage();
+
+        $instance->setContainer(($this->privates['.service_locator.pNNo5z3'] ?? $this->get_ServiceLocator_PNNo5z3Service())->withContext('App\\Controller\\MainPage', $this));
 
         return $instance;
     }
@@ -215,7 +220,7 @@ class App_KernelDevDebugContainer extends Container
         include_once \dirname(__DIR__, 4).'\\vendor\\symfony\\cache\\Marshaller\\MarshallerInterface.php';
         include_once \dirname(__DIR__, 4).'\\vendor\\symfony\\cache\\Marshaller\\DefaultMarshaller.php';
 
-        $this->services['cache.app'] = $instance = new \Symfony\Component\Cache\Adapter\FilesystemAdapter('xriNeWxKYQ', 0, ($this->targetDir.''.'/pools'), new \Symfony\Component\Cache\Marshaller\DefaultMarshaller(NULL));
+        $this->services['cache.app'] = $instance = new \Symfony\Component\Cache\Adapter\FilesystemAdapter('b4UJ3ZA0C0', 0, ($this->targetDir.''.'/pools'), new \Symfony\Component\Cache\Marshaller\DefaultMarshaller(NULL));
 
         $instance->setLogger(($this->privates['logger'] ?? ($this->privates['logger'] = new \Symfony\Component\HttpKernel\Log\Logger())));
 
@@ -267,7 +272,7 @@ class App_KernelDevDebugContainer extends Container
         include_once \dirname(__DIR__, 4).'\\vendor\\symfony\\cache\\Traits\\ContractsTrait.php';
         include_once \dirname(__DIR__, 4).'\\vendor\\symfony\\cache\\Adapter\\AbstractAdapter.php';
 
-        return $this->services['cache.system'] = \Symfony\Component\Cache\Adapter\AbstractAdapter::createSystemCache('+YzDF4O3ZG', 0, $this->getParameter('container.build_id'), ($this->targetDir.''.'/pools'), ($this->privates['logger'] ?? ($this->privates['logger'] = new \Symfony\Component\HttpKernel\Log\Logger())));
+        return $this->services['cache.system'] = \Symfony\Component\Cache\Adapter\AbstractAdapter::createSystemCache('7bj+Hs3LZM', 0, $this->getParameter('container.build_id'), ($this->targetDir.''.'/pools'), ($this->privates['logger'] ?? ($this->privates['logger'] = new \Symfony\Component\HttpKernel\Log\Logger())));
     }
 
     /**
@@ -756,6 +761,30 @@ class App_KernelDevDebugContainer extends Container
     }
 
     /**
+     * Gets the private '.service_locator.pNNo5z3' shared service.
+     *
+     * @return \Symfony\Component\DependencyInjection\ServiceLocator
+     */
+    protected function get_ServiceLocator_PNNo5z3Service()
+    {
+        return $this->privates['.service_locator.pNNo5z3'] = new \Symfony\Component\DependencyInjection\Argument\ServiceLocator($this->getService, [
+            'http_kernel' => ['services', 'http_kernel', 'getHttpKernelService', false],
+            'parameter_bag' => ['privates', 'parameter_bag', 'getParameterBagService', false],
+            'request_stack' => ['services', 'request_stack', 'getRequestStackService', false],
+            'router' => ['services', 'router', 'getRouterService', false],
+            'session' => ['services', 'session', 'getSessionService', false],
+            'twig' => ['services', 'twig', 'getTwigService', false],
+        ], [
+            'http_kernel' => '?',
+            'parameter_bag' => '?',
+            'request_stack' => '?',
+            'router' => '?',
+            'session' => '?',
+            'twig' => '?',
+        ]);
+    }
+
+    /**
      * Gets the private 'argument_resolver.service' shared service.
      *
      * @return \Symfony\Component\HttpKernel\Controller\ArgumentResolver\ServiceValueResolver
@@ -806,7 +835,7 @@ class App_KernelDevDebugContainer extends Container
         include_once \dirname(__DIR__, 4).'\\vendor\\symfony\\cache\\Traits\\ContractsTrait.php';
         include_once \dirname(__DIR__, 4).'\\vendor\\symfony\\cache\\Adapter\\AbstractAdapter.php';
 
-        return $this->privates['cache.webpack_encore'] = \Symfony\Component\Cache\Adapter\AbstractAdapter::createSystemCache('XrAkr6-AiY', 0, $this->getParameter('container.build_id'), ($this->targetDir.''.'/pools'), ($this->privates['logger'] ?? ($this->privates['logger'] = new \Symfony\Component\HttpKernel\Log\Logger())));
+        return $this->privates['cache.webpack_encore'] = \Symfony\Component\Cache\Adapter\AbstractAdapter::createSystemCache('wlPSwbouCg', 0, $this->getParameter('container.build_id'), ($this->targetDir.''.'/pools'), ($this->privates['logger'] ?? ($this->privates['logger'] = new \Symfony\Component\HttpKernel\Log\Logger())));
     }
 
     /**
