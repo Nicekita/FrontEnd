@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}{% endblock %}</title>
+    {% block stylesheets  %}
+        <link rel="stylesheet" href="/asset/css/css1.css">
+    {% endblock %}
+</head>
+<body>
+{% block body %}{% endblock %}
+{% block javascripts %}{{ encore_entry_script_tags('base')}} {% endblock %}
+<form  method="post" action="{{ path('mainpage') }}" id="ajax_form">
+    <section class="wrapper">
+        <section class="pm">
+            <div>
+    <p><b>Мероприятие:1</b><br>
+
+            </div>
+            <div>
+    <p><b>Название:</b><br>
+        <input type="text" size="70">
+    </p>
+                </div>
+            <div>
+    <p><b>Место проведения:</b><br>
+        <input type="text" size="70">
+    </p>
+                </div>
+            <div>
+    <p><b>Дата и время проведения:</b><br>
+        <input type="text" size="70">
+    </p>
+                </div>
+            <div>
+    <p><b>Преподаватель:</b><br>
+        <input type="text" size="70">
+    </p>
+                </div>
+            <div>
+    <p><b>Максиальное кол-во участников:</b><br>
+        <input type="text" size="30">
+    </p>
+                </div>
+            <div>
+    <p><b>Прочая информация:</b><br>
+        <input type="text" size="70">
+    </p>
+                </div>
+            <div>
+    <p><b>Подразделение(Название):</b><br>
+        <select size="3" multiple name="hero[]">
+            <option disabled>Выберите мероприятие</option>
+            <option value="Чебурашка">Чебурсаня</option>
+            <option selected value="Крокодил Гена">Крокодил Коля</option>
+            <option value="Шапокляк">Андркляк</option>
+            <option value="Крыса Лариса">Крыса Оля</option>
+        </select></p>
+                </div>
+            <div>
+    <p><b>Тип мероприятия(Название):</b><br>
+        <select size="3" multiple name="hero[]">
+            <option disabled>Выберите мероприятие</option>
+            <option value="Чебурашка">Чебурашка</option>
+            <option selected value="Крокодил Гена">Крокодил Гена</option>
+            <option value="Шапокляк">Шапокляк</option>
+            <option value="Крыса Лариса">Крыса Лариса</option>
+        </select></p>
+                </div>
+        </section>
+        <section class="light">
+            <div>
+                <input type="submit" value="Отправить" >
+            </div>
+            <div>
+                <input type="reset" value="Очистить">
+            </div>
+
+
+        </section>
+    </section>
+</form>
+</body>
+</html>
