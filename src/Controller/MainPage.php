@@ -8,6 +8,8 @@ class MainPage extends AbstractController
 {
     function Base()
     {
-        return $this->render('base.html.twig');
+
+            return $this->render('base.html.twig');
+
     }
 }

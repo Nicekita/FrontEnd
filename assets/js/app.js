@@ -22,7 +22,11 @@ $(document).ready(function() {
         var $data = $("#ajax_form").serialize();
         $.postJSON('http://Api/', $("#ajax_form").serialize(), function (data) {
 
-            if (data.auth == '1'){console.log('Регистрация прошла успешно!'); document.location.href = "/";} else console.log('Регистрация не удалась.')
+            if (data.auth == '1'){console.log('Регистрация прошла успешно!'); document.location.href = "/";
+                document.cookie = 'login=' + encodeURIComponent($('#login').val())+'; max-age=3600;path=/';
+                document.cookie = 'password=' + encodeURIComponent($('#password').val())+'; max-age=3600;path=/';
+
+            } else console.log('Регистрация не удалась.')
         });
 
         return false;

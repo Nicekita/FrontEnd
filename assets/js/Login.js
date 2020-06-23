@@ -10,7 +10,12 @@ export default function login() {
             var $data = $("#ajax_form").serialize();
             $.postJSON('http://Api/', $("#ajax_form").serialize(), function (data) {
 
-                if (data.auth == '1'){console.log('Регистрация прошла успешно!'); document.location.href = "/";} else console.log('Регистрация не удалась.')
+                if (data.auth == '1'){
+                    console.log('Регистрация прошла успешно!');
+                    document.location.href = "/";
+
+                }
+                else console.log('Регистрация не удалась.')
             });
 
             return false; // или return false;

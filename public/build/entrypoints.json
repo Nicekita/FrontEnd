@@ -3,7 +3,7 @@
     "app": {
       "js": [
         "/build/runtime.js",
-        "/build/vendors~app~base.js",
+        "/build/vendors~app~base~save.js",
         "/build/app.js"
       ],
       "css": [
@@ -13,11 +13,22 @@
     "base": {
       "js": [
         "/build/runtime.js",
-        "/build/vendors~app~base.js",
+        "/build/vendors~app~base~save.js",
+        "/build/vendors~base.js",
         "/build/base.js"
       ],
       "css": [
         "/build/base.css"
+      ]
+    },
+    "save": {
+      "js": [
+        "/build/runtime.js",
+        "/build/vendors~app~base~save.js",
+        "/build/save.js"
+      ],
+      "css": [
+        "/build/save.css"
       ]
     }
   }

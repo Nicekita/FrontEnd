@@ -7,7 +7,5 @@ login:
 mainpage:
     path: /
     controller: App\Controller\MainPage::base
-redaction:
-    path: /save
-    controller: App\Controller\Save::save
+
 

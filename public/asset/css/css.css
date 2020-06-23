@@ -31,7 +31,7 @@
      position: absolute;
 
  }
- .wrapper > div.pm{
+ .wrapper  div.pm{
      display: grid;
      grid-gap: 1px;
      grid-auto-rows: minmax(auto, 200px);
@@ -47,6 +47,15 @@
      font-family: 'Times New Roman', Times, serif;
      font-size: 200%;
      color:#4A76A8 ;
+     cursor: pointer;
+
+ }
+ .wrapper  div.pm div:hover{
+     background-color: #67a4e8;
+
+     font-family: 'Times New Roman', Times, serif;
+     font-size: 200%;
+     color: #ffffff;
 
 
  }
@@ -56,12 +65,48 @@
      grid-auto-rows: minmax(auto, 200px);
      overflow: auto;
      height: 100vh;
-
+     position: relative
 
 
  }
- .wrapper  div.light div{
+ .wrapper  div.light div.event{
      background-color: white;
+     padding: 1em;
+     border-radius: 7px;
+     margin: 1px;
+     font-family: 'Times New Roman', Times, serif;
+     font-size: 200%;
+     cursor: pointer;
+     overflow: scroll;
+
+
+ }
+ .wrapper  div.light div.event:hover{
+     background-color: #67a4e8;
+     padding: 1em;
+     border-radius: 7px;
+     margin: 1px;
+     font-family: 'Times New Roman', Times, serif;
+     color: #ffffff;
+     cursor: pointer;
+
+     overflow: scroll;
+
+
+ }
+ .wrapper  div.light iframe{
+
+
+     height: 100vh;
+     width: 100vh;
+     min-width: 95%;
+     min-height: 95%;
+     position: relative;
+
+ }
+ .wrapper div.light  div.Edit
+ {
+     background-color: #EDEEF0;
      padding: 1em;
      border-radius: 7px;
      margin: 1px;
@@ -69,9 +114,40 @@
      font-size: 200%;
 
 
+     position: absolute;
+     left:0;
+     right:0;
+     top:0;
 
+ }
+ .wrapper  div.Edit div{
+     background-color: ghostwhite;
+     border-radius: 5px;
+     margin: 1px;
+     font-family: 'Times New Roman', Times, serif;
+     font-size: 120%;
+     color: #4A76A8;
+     width: 50%;
+     padding-left: 40px;
+     top: 0;
+     right: 0;
+     bottom: 0;
+     left: 0;
 
 
  }
+ .wrapper div.Edit img{
+     padding-left: 100px;
+ }
+ .wrapper div.Edit img:hover{
+     cursor:pointer;
+ }
+ #addDiv {
+    float:left;
+     height:auto;
+     display: table;
+     font-size: 100%
+ }
+
 
 

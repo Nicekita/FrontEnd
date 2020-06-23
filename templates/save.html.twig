@@ -9,13 +9,13 @@
 </head>
 <body>
 {% block body %}{% endblock %}
-{% block javascripts %}{{ encore_entry_script_tags('base')}} {% endblock %}
-<form  method="post" action="{{ path('mainpage') }}" id="ajax_form">
+{% block javascripts %}{{ encore_entry_script_tags('save')}} {% endblock %}
+<form  method="post" action="" id="ajax_form">
     <section class="wrapper">
         <section class="pm">
             <div>
-    <p><b>Мероприятие:1</b><br>
-
+    <p><b>Код мероприятия:</b><br>
+        <input type="text" size="70">
             </div>
             <div>
     <p><b>Название:</b><br>
@@ -24,27 +24,27 @@
                 </div>
             <div>
     <p><b>Место проведения:</b><br>
-        <input type="text" size="70">
+        <textarea size="70"></textarea>
     </p>
                 </div>
             <div>
     <p><b>Дата и время проведения:</b><br>
-        <input type="text" size="70">
+        <input type="date">
     </p>
                 </div>
             <div>
     <p><b>Преподаватель:</b><br>
-        <input type="text" size="70">
+        <textarea size="70"></textarea>
     </p>
                 </div>
             <div>
-    <p><b>Максиальное кол-во участников:</b><br>
+    <p><b>Максимальное кол-во участников:</b><br>
         <input type="text" size="30">
     </p>
                 </div>
             <div>
     <p><b>Прочая информация:</b><br>
-        <input type="text" size="70">
+        <textarea size="70"></textarea>
     </p>
                 </div>
             <div>
@@ -69,12 +69,12 @@
                 </div>
         </section>
         <section class="light">
-            <div>
+
                 <input type="submit" value="Отправить" >
-            </div>
-            <div>
-                <input type="reset" value="Очистить">
-            </div>
+
+
+                <input type="button" value="Очистить" id="ex">
+
 
 
         </section>

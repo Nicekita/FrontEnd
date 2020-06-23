@@ -52,19 +52,36 @@ class __TwigTemplate_72304e62f17f08dcb7f71892b33afc7dd83da42ebc54df69076e6da83e3
         ";
         // line 6
         $this->displayBlock('stylesheets', $context, $blocks);
-        // line 7
+        // line 9
         echo "    </head>
     <body>
         ";
-        // line 9
+        // line 11
         $this->displayBlock('body', $context, $blocks);
-        // line 10
+        // line 12
         echo "        ";
         $this->displayBlock('javascripts', $context, $blocks);
-        // line 11
-        echo "        <form  method=\"post\" action=\"\" id=\"ajax_form\">
-            <input type=\"button\" id=\"btn\" value=\"Скоро тут(может быть) появится рабочее приложение!\" />
-        </form>
+        // line 13
+        echo "    <div class=\"wrapper\">
+
+   <div class=\"pm\" id=\"divs\">
+       Подразделение
+
+
+   </div>
+
+    <div class=\"light\" id=\"events\">
+        Мероприятие
+
+
+    </div>
+
+
+
+
+    </div>
+
+
     </body>
 </html>
 ";
@@ -93,12 +110,15 @@ class __TwigTemplate_72304e62f17f08dcb7f71892b33afc7dd83da42ebc54df69076e6da83e3
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02 = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "stylesheets"));
 
+        // line 7
+        echo "        <link rel=\"stylesheet\" href=\"/asset/css/css.css\">
+        ";
         
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->leave($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof);
 
     }
 
-    // line 9
+    // line 11
     public function block_body($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -110,7 +130,7 @@ class __TwigTemplate_72304e62f17f08dcb7f71892b33afc7dd83da42ebc54df69076e6da83e3
 
     }
 
-    // line 10
+    // line 12
     public function block_javascripts($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -131,7 +151,7 @@ class __TwigTemplate_72304e62f17f08dcb7f71892b33afc7dd83da42ebc54df69076e6da83e3
 
     public function getDebugInfo()
     {
-        return array (  114 => 10,  102 => 9,  90 => 6,  77 => 5,  65 => 11,  62 => 10,  60 => 9,  56 => 7,  54 => 6,  50 => 5,  44 => 1,);
+        return array (  134 => 12,  122 => 11,  114 => 7,  107 => 6,  94 => 5,  65 => 13,  62 => 12,  60 => 11,  56 => 9,  54 => 6,  50 => 5,  44 => 1,);
     }
 
     public function getSourceContext()
@@ -141,14 +161,33 @@ class __TwigTemplate_72304e62f17f08dcb7f71892b33afc7dd83da42ebc54df69076e6da83e3
     <head>
         <meta charset=\"UTF-8\">
         <title>{% block title %}Welcome!{% endblock %}</title>
-        {% block stylesheets %}{% endblock %}
+        {% block stylesheets  %}
+        <link rel=\"stylesheet\" href=\"/asset/css/css.css\">
+        {% endblock %}
     </head>
     <body>
         {% block body %}{% endblock %}
         {% block javascripts %}{{ encore_entry_script_tags('base')}} {% endblock %}
-        <form  method=\"post\" action=\"\" id=\"ajax_form\">
-            <input type=\"button\" id=\"btn\" value=\"Скоро тут(может быть) появится рабочее приложение!\" />
-        </form>
+    <div class=\"wrapper\">
+
+   <div class=\"pm\" id=\"divs\">
+       Подразделение
+
+
+   </div>
+
+    <div class=\"light\" id=\"events\">
+        Мероприятие
+
+
+    </div>
+
+
+
+
+    </div>
+
+
     </body>
 </html>
 ", "base.html.twig", "C:\\Users\\Nicekita\\Downloads\\OSPanel\\domains\\Practice\\FrontEndPractice\\templates\\base.html.twig");

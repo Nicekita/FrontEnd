@@ -17,7 +17,7 @@ body{
 
 }
 .wrapper > section.light{
-    background-color: #EDEEF0;
+    background-color: #edeef0;
     border-radius: 1px;
     height: 100%;
     padding-top: -20%;
@@ -43,6 +43,11 @@ body{
     color:#4A76A8 ;
     width: 50%;
     padding-left: 40px ;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
 
 
 }
@@ -60,13 +65,18 @@ body{
 
 }
 .wrapper  section.light div {
-    background-color: #4A76A8;
-    border-radius: 7px;
+    background-color: ghostwhite;
+    border-radius: 5px;
     margin: 1px;
     font-family: 'Times New Roman', Times, serif;
-    color: ghostwhite;
-    padding-left: 100px;
-    padding-top: 30px;
+    font-size: 120%;
+    color: #4A76A8;
+    width: 50%;
+    padding-left: 40px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
 
 }
 input[type=submit] {
@@ -76,7 +86,7 @@ input[type=submit] {
     font-family: 'Times New Roman', Times, serif;
     color: #4A76A8;
     font-size: 20px;
-    width: 100px;
+
 
 
 
