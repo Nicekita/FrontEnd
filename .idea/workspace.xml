@@ -10,58 +10,39 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
     </expand>
     <select />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d16b28b-9ab8-491a-ac0c-60ad374e0e4f" name="Default Changelist" comment="Changed structure">
-      <change afterPath="$PROJECT_DIR$/../APIpractice/src/Controller/AddDiv.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../APIpractice/src/Controller/Delete.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../APIpractice/src/Controller/Edit.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../APIpractice/src/Controller/Save.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/Save.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../APIpractice/config/routes.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../APIpractice/config/routes.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../APIpractice/src/Controller/DivList.php" beforeDir="false" afterPath="$PROJECT_DIR$/../APIpractice/src/Controller/DivList.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../APIpractice/src/Controller/Sql.php" beforeDir="false" afterPath="$PROJECT_DIR$/../APIpractice/src/Controller/Sql.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/asset/css/сss2.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/Login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/base.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/base.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.bin/encore" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/encore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.bin/encore.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/encore.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@symfony/webpack-encore/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@symfony/webpack-encore/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/core-js/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/jquery/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack-notifier/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack-notifier/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/asset/css/css.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/asset/css/css.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/asset/css/css1.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/asset/css/css1.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/build/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/build/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/build/base.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/build/base.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/build/entrypoints.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/build/entrypoints.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/build/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/build/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/build/vendors~app~base.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/MainPage.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/MainPage.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/Save.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Save.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/AddNew.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/AddNew.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/delete.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/delete.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/exit.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/exit.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/save.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/save.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/save.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/save.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/login.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/login.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/cache/dev/App_KernelDevDebugContainer.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/App_KernelDevDebugContainer.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/cache/dev/App_KernelDevDebugContainer.php.meta" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/App_KernelDevDebugContainer.php.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/cache/dev/App_KernelDevDebugContainer.preload.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/App_KernelDevDebugContainer.preload.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/cache/dev/App_KernelDevDebugContainer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/App_KernelDevDebugContainer.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/cache/dev/App_KernelDevDebugContainer.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/App_KernelDevDebugContainer.xml.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/cache/dev/App_KernelDevDebugContainerCompiler.log" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/App_KernelDevDebugContainerCompiler.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerEjKJOdx.legacy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerEjKJOdx/App_KernelDevDebugContainer.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerEjKJOdx/removed-ids.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/6c/6c2e3e9596afe3c56884a25037d551258907757993817aae438d52d10cd2af08.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/twig/6c/6c2e3e9596afe3c56884a25037d551258907757993817aae438d52d10cd2af08.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9xWUYIr.legacy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/0b/0b04f5c588eef2874fc6b6a9f13391e8e9e8463bebd361b965e86ff80006d991.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/twig/0b/0b04f5c588eef2874fc6b6a9f13391e8e9e8463bebd361b965e86ff80006d991.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/5b/5b6a232f58ef9bf6322cdc14eb6e9aa56f927617853dfcc103ca27e9f4505d5b.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/twig/5b/5b6a232f58ef9bf6322cdc14eb6e9aa56f927617853dfcc103ca27e9f4505d5b.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/cache/dev/url_generating_routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/url_generating_routes.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/cache/dev/url_generating_routes.php.meta" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/url_generating_routes.php.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/cache/dev/url_matching_routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/url_matching_routes.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/cache/dev/url_matching_routes.php.meta" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/url_matching_routes.php.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,6 +157,10 @@
       <workItem from="1592647654437" duration="6837000" />
       <workItem from="1592665213779" duration="62674000" />
       <workItem from="1592916957067" duration="21451000" />
+      <workItem from="1592961120741" duration="3028000" />
+      <workItem from="1593031106482" duration="1585000" />
+      <workItem from="1593032863019" duration="5590000" />
+      <workItem from="1593087098033" duration="5235000" />
     </task>
     <task id="LOCAL-00001" summary="Made some changes">
       <created>1591529949411</created>
@@ -262,9 +247,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="377" y="358" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591535552857" />
-    <state x="799" y="242" width="672" height="678" key="search.everywhere.popup" timestamp="1591533366040">
+    <state x="799" y="242" width="672" height="678" key="search.everywhere.popup" timestamp="1593029311484">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="799" y="242" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1591533366040" />
+    <state x="799" y="242" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1593029311484" />
   </component>
 </project>

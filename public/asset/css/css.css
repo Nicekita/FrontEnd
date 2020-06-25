@@ -1,9 +1,13 @@
  body{
-     background-color: #EDEEF0;
+     background-color: #3adbfd;
+ }
+ *{
+     padding: 0;
+     margin: 0;
  }
  .wrapper > div{
      padding: 1%;
-     background-color: #4A76A8;
+     background-color: #1a394f;
      border-radius: 7px;
      height: 100%;
 
@@ -11,7 +15,7 @@
 
  .wrapper > div.light{
      padding: 0.8%;
-     background-color: #4A76A8;
+     background-color: #1a394f;
      border-radius: 7px;
      height: 100%;
 
@@ -46,7 +50,7 @@
      margin: 1px;
      font-family: 'Times New Roman', Times, serif;
      font-size: 200%;
-     color:#4A76A8 ;
+     color:#1a394f ;
      cursor: pointer;
 
  }
@@ -126,7 +130,7 @@
      margin: 1px;
      font-family: 'Times New Roman', Times, serif;
      font-size: 120%;
-     color: #4A76A8;
+     color: #1a394f;
      width: 50%;
      padding-left: 40px;
      top: 0;
@@ -137,7 +141,11 @@
 
  }
  .wrapper div.Edit img{
-     padding-left: 100px;
+     border: 7px solid #1a394f;
+     border-radius: 50%;
+     box-shadow: 0 -7px 0 #3adbfd;
+
+
  }
  .wrapper div.Edit img:hover{
      cursor:pointer;
@@ -148,6 +156,32 @@
      display: table;
      font-size: 100%
  }
+ .wrapper  div.Edit{
+     height: 100vh;
+ }
+ .wrapper section.light{
+     padding-left: 50px;
+     padding-top: 50px;
+ }
+ #addEvent img{
+     border: 7px solid #1a394f;
+     border-radius: 50%;
+     box-shadow: 0 -7px 0 #3adbfd;
 
+ }
+ #addDiv img{
+     border: 7px solid #1a394f;
+     border-radius: 50%;
+     box-shadow: 0 -7px 0 #3adbfd;
+
+ }
+ .wrapper div.light{
+     height: 99vh;
+ }
+ .wrapper div#addDiv
+ {
+     padding-left: 200px ;
+ }
+ .
 
 

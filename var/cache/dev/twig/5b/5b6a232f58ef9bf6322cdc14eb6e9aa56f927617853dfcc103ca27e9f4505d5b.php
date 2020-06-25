@@ -64,38 +64,15 @@ class __TwigTemplate_e50cecaa0c35112c3e3bf0dc0490b1f20bd228219a5335fec10f46e2f29
         // line 13
         echo "    <div class=\"wrapper\">
 
-   <div class=\"pm\">
-       Подразделение
-       <div>Я смурфик внутри</div>
-       <div>2</div>
-       <div>2</div>
-       <div>2</div>
-       <div>2</div>
-       <div>2</div>
-       <div>2</div>
-       <div>2</div>
-       <div>2</div>
-       <div>2</div>
-       <div>2</div>
-       <div>2</div>
-       <div>2</div>
+   <div class=\"pm\" id=\"divs\">
+
+
 
    </div>
 
-    <div class=\"light\">
-        Мероприятие
-        <div>А я смурфик снаружиfffffffffffffffffffffffff fffffffffffffffffffff fffffffffffffff fffffffffffffffffffffffffffff fffffffffffffffffffffff fffffffff fffffffffffffffffffffffffff</div>
-        <div>2</div>
-        <div>2</div>
-        <div>2</div>
-        <div>2</div>
-        <div>2</div>
-        <div>2</div>
-        <div>2</div>
-        <div>2</div>
-        <div>2</div>
-        <div>2</div>
-        <div>2</div>
+    <div class=\"light\" id=\"events\">
+
+
 
     </div>
 
@@ -174,7 +151,7 @@ class __TwigTemplate_e50cecaa0c35112c3e3bf0dc0490b1f20bd228219a5335fec10f46e2f29
 
     public function getDebugInfo()
     {
-        return array (  157 => 12,  145 => 11,  137 => 7,  130 => 6,  117 => 5,  65 => 13,  62 => 12,  60 => 11,  56 => 9,  54 => 6,  50 => 5,  44 => 1,);
+        return array (  134 => 12,  122 => 11,  114 => 7,  107 => 6,  94 => 5,  65 => 13,  62 => 12,  60 => 11,  56 => 9,  54 => 6,  50 => 5,  44 => 1,);
     }
 
     public function getSourceContext()
@@ -193,38 +170,15 @@ class __TwigTemplate_e50cecaa0c35112c3e3bf0dc0490b1f20bd228219a5335fec10f46e2f29
         {% block javascripts %}{{ encore_entry_script_tags('base')}} {% endblock %}
     <div class=\"wrapper\">
 
-   <div class=\"pm\">
-       Подразделение
-       <div>Я смурфик внутри</div>
-       <div>2</div>
-       <div>2</div>
-       <div>2</div>
-       <div>2</div>
-       <div>2</div>
-       <div>2</div>
-       <div>2</div>
-       <div>2</div>
-       <div>2</div>
-       <div>2</div>
-       <div>2</div>
-       <div>2</div>
+   <div class=\"pm\" id=\"divs\">
+
+
 
    </div>
 
-    <div class=\"light\">
-        Мероприятие
-        <div>А я смурфик снаружиfffffffffffffffffffffffff fffffffffffffffffffff fffffffffffffff fffffffffffffffffffffffffffff fffffffffffffffffffffff fffffffff fffffffffffffffffffffffffff</div>
-        <div>2</div>
-        <div>2</div>
-        <div>2</div>
-        <div>2</div>
-        <div>2</div>
-        <div>2</div>
-        <div>2</div>
-        <div>2</div>
-        <div>2</div>
-        <div>2</div>
-        <div>2</div>
+    <div class=\"light\" id=\"events\">
+
+
 
     </div>
 

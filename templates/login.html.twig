@@ -3,17 +3,25 @@
     <head>
         <meta charset="UTF-8">
         <title>{% block title %}Welcome!{% endblock %}</title>
-        {% block stylesheets %}{% endblock %}
+        {% block stylesheets %}
+            <link rel="stylesheet" href="/asset/css/css1.css">
+        {% endblock %}
     </head>
     <body>
-        {% block body %}{% endblock %}
-        {% block javascripts %}{{ encore_entry_script_tags('app')}}{% endblock %}
+    {% block body %}{% endblock %}
+    {% block javascripts %}{{ encore_entry_script_tags('app')}}{% endblock %}
+    <div class="container">
+        <img src ="images/man.png">
         <form  method="post" action="{{ path('mainpage') }}" id="ajax_form">
-            <p><strong>Логин:</strong>
-                <input maxlength="25" size="40" id="login" name = "login"></p>
-            <p><strong>Пароль:</strong>
-                <input type="password" maxlength="25" size="40" id="password" name = "password"></p>
-            <input type="button" id="btn"  value="Войти" />
+            <div class="dws-input">
+                <input type= "text" maxlength="25" size="40" id="login" name = "login" placeholder="Введите логин"></p>
+                </div>
+            <div class="dws-input">
+                <input type="password" maxlength="25" size="40" id="password" name = "password" placeholder="Введите пароль"></p>
+                </div>
+            <input class="dws-submit" type="button" id="btn"  value="Войти" />
+
         </form>
+    </div>>
     </body>
 </html>
