@@ -26,7 +26,7 @@ $(document).ready(function() {
                 document.cookie = 'login=' + encodeURIComponent($('#login').val())+'; max-age=3600;path=/';
                 document.cookie = 'password=' + encodeURIComponent($('#password').val())+'; max-age=3600;path=/';
 
-            } else console.log('Регистрация не удалась.')
+            } else alert('Регистрация не удалась.')
         });
 
         return false;

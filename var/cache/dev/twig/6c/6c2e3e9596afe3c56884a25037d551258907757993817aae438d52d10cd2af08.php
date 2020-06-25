@@ -65,13 +65,13 @@ class __TwigTemplate_72304e62f17f08dcb7f71892b33afc7dd83da42ebc54df69076e6da83e3
         echo "    <div class=\"wrapper\">
 
    <div class=\"pm\" id=\"divs\">
-       Подразделение
+
 
 
    </div>
 
     <div class=\"light\" id=\"events\">
-        Мероприятие
+
 
 
     </div>
@@ -171,13 +171,13 @@ class __TwigTemplate_72304e62f17f08dcb7f71892b33afc7dd83da42ebc54df69076e6da83e3
     <div class=\"wrapper\">
 
    <div class=\"pm\" id=\"divs\">
-       Подразделение
+
 
 
    </div>
 
     <div class=\"light\" id=\"events\">
-        Мероприятие
+
 
 
     </div>

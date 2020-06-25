@@ -11,7 +11,7 @@ import '../css/app.css';
 
 import $ from 'jquery';
 let divisionid =0;
-
+let urltoAPI = 'http://Api/';
 let ValueForDivision="";
 let DateNormalize = function (date){
 return date.substr(0,10)

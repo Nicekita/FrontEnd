@@ -20,8 +20,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d16b28b-9ab8-491a-ac0c-60ad374e0e4f" name="Default Changelist" comment="Final design by Evgeniy">
-      <change afterPath="$PROJECT_DIR$/public/images/man.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../APIpractice/config/routes.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../APIpractice/config/routes.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../APIpractice/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../APIpractice/config/services.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../APIpractice/src/Controller/AddDiv.php" beforeDir="false" afterPath="$PROJECT_DIR$/../APIpractice/src/Controller/AddDiv.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../APIpractice/src/Controller/Delete.php" beforeDir="false" afterPath="$PROJECT_DIR$/../APIpractice/src/Controller/Delete.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../APIpractice/src/Controller/DivList.php" beforeDir="false" afterPath="$PROJECT_DIR$/../APIpractice/src/Controller/DivList.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../APIpractice/src/Controller/Edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/../APIpractice/src/Controller/Edit.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../APIpractice/src/Controller/Save.php" beforeDir="false" afterPath="$PROJECT_DIR$/../APIpractice/src/Controller/Save.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../APIpractice/src/Controller/Sql.php" beforeDir="false" afterPath="$PROJECT_DIR$/../APIpractice/src/Controller/Sql.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../APIpractice/var/cache/dev/App_KernelDevDebugContainer.php" beforeDir="false" afterPath="$PROJECT_DIR$/../APIpractice/var/cache/dev/App_KernelDevDebugContainer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../APIpractice/var/cache/dev/App_KernelDevDebugContainer.php.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../APIpractice/var/cache/dev/App_KernelDevDebugContainer.php.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../APIpractice/var/cache/dev/App_KernelDevDebugContainer.preload.php" beforeDir="false" afterPath="$PROJECT_DIR$/../APIpractice/var/cache/dev/App_KernelDevDebugContainer.preload.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../APIpractice/var/cache/dev/App_KernelDevDebugContainer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../APIpractice/var/cache/dev/App_KernelDevDebugContainer.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../APIpractice/var/cache/dev/App_KernelDevDebugContainer.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../APIpractice/var/cache/dev/App_KernelDevDebugContainer.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../APIpractice/var/cache/dev/ContainerYcjrwml/App_KernelDevDebugContainer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../APIpractice/var/cache/dev/ContainerYcjrwml/removed-ids.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../APIpractice/var/cache/dev/url_matching_routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/../APIpractice/var/cache/dev/url_matching_routes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../APIpractice/var/cache/dev/url_matching_routes.php.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../APIpractice/var/cache/dev/url_matching_routes.php.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/build/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/App_KernelDevDebugContainer.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/App_KernelDevDebugContainer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/App_KernelDevDebugContainer.php.meta" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/App_KernelDevDebugContainer.php.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/App_KernelDevDebugContainer.preload.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/App_KernelDevDebugContainer.preload.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/App_KernelDevDebugContainer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/App_KernelDevDebugContainer.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/App_KernelDevDebugContainer.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/App_KernelDevDebugContainer.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/App_KernelDevDebugContainerCompiler.log" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/App_KernelDevDebugContainerCompiler.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/59/5992d7a13e63e7cc2528bc384c4b80ad791c4cd51a4c83e949d90b1244ccd7ab.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/twig/59/5992d7a13e63e7cc2528bc384c4b80ad791c4cd51a4c83e949d90b1244ccd7ab.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/6c/6c2e3e9596afe3c56884a25037d551258907757993817aae438d52d10cd2af08.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/twig/6c/6c2e3e9596afe3c56884a25037d551258907757993817aae438d52d10cd2af08.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/url_generating_routes.php.meta" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/url_generating_routes.php.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/url_matching_routes.php.meta" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/url_matching_routes.php.meta" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -202,6 +231,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="Final design by Evgeniy" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="552" y="178" width="816" height="729" key="#Intentions" timestamp="1593094403394">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" width="816" height="729" key="#Intentions/0.0.1920.1040@0.0.1920.1040" timestamp="1593094403394" />
     <state x="845" y="383" key="#Notifications" timestamp="1592435208122">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
